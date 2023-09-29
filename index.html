@@ -12,7 +12,7 @@
 </head>
 <body>
     <div class="container center">
-        <div class="row">
+        <div class="row position">
             <!-- Gram Converter -->
                 <div class="center col-md-4">
                     <form action="" id="converter1" class="border border-2 rounded p-4 my-5">
@@ -45,13 +45,10 @@
         
                         <button type="submit" class="btn btn-danger my-3 w-100 btn-lg">Convert</button>
                     </form>
-                </div>       
-        </div>
-    </div>
-
-    <div class="container center">
-        <div class="row">
-            <!-- Cup Converter -->
+                </div>
+                
+                
+                <!-- Cup Converter -->
                 <div class="center col-md-4">
                     <form action="" id="converter3" class="border border-2 rounded p-4 my-5">
                         <h1>Cup to Ounces</h1>
@@ -67,7 +64,11 @@
                         <button type="submit" class="btn btn-danger my-3 w-100 btn-lg">Convert</button>
                     </form>
                 </div>
-            
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
                 <!-- Pint Converter -->
                 <div class="center col-md-4">
                     <form action="" id="converter4" class="border border-2 rounded p-4 my-5">
@@ -84,8 +85,45 @@
                         <button type="submit" class="btn btn-danger my-3 w-100 btn-lg">Convert</button>
                     </form>
                 </div>       
+
+                <!-- Quart Converter -->
+                <div class="center col-md-4">
+                    <form action="" id="converter5" class="border border-2 rounded p-4 my-5">
+                        <h1>Quart to Pints</h1>
+                        <div class="form-group">
+                            <label for="quart">Quart</label>
+                            <input type="number" class="form-control" id="quart">
+                        </div>
+        
+                        <div class="form-group">
+                            <h3 id="message5"></h3>
+                        </div>
+        
+                        <button type="submit" class="btn btn-danger my-3 w-100 btn-lg">Convert</button>
+                    </form>
+                </div>
+            
+                <!-- Gallon Converter -->
+                <div class="center col-md-4">
+                    <form action="" id="converter6" class="border border-2 rounded p-4 my-5">
+                        <h1>Gallon to Quarts</h1>
+                        <div class="form-group">
+                            <label for="gallon">Gallon</label>
+                            <input type="number" class="form-control" id="gallon">
+                        </div>
+        
+                        <div class="form-group">
+                            <h3 id="message6"></h3>
+                        </div>
+        
+                        <button type="submit" class="btn btn-danger my-3 w-100 btn-lg">Convert</button>
+                    </form>
+                </div>       
+
         </div>
     </div>
 
+    
+            
 </body>
 </html>
